@@ -1,0 +1,105 @@
+.application-header
+{
+    color: black;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+.all-reservations
+{
+    background-color: #a1a1a1;
+    padding-top: 50px;
+    padding-bottom: 85px;
+}
+
+.filter-applications
+{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.reservations-heading
+{
+    font-weight: 400;
+}
+
+.application-info-details
+{
+    font-weight: bolder;
+    color: #292C6D;
+}
+
+
+.accept-application
+{
+    margin-right: 20px;
+    background-color: #116530;
+    border: none;
+    padding: 10px 15px;
+}
+
+.decline-application
+{
+    margin-right: 20px;
+    background-color: #CD1818;
+    border: none;
+    padding: 10px 15px;
+}
+
+.application-actions
+{
+    margin-top: 20px;
+}
+
+.application-actions:hover
+{
+    background-color: white;
+}
+
+.accept-application:hover
+{
+    background-color: #0B4619;
+}
+
+.decline-application:hover
+{
+    background-color: #9B0000;
+}
+
+.application-action-message
+{
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.pending-applications, .accepted-applications, .declined-applications
+{
+    padding: 10px 15px;
+    border: none;
+}
+
+.user-applications
+{
+    padding: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2.5rem;
+}
+
+.btn-see-application-details
+{
+    color:#ffff;
+    font-size: 15px;
+    margin-top: 10px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10rem;
+    display: inline-flex;
+    align-items: center;
+    background:  rgb(69, 10, 104);
+    text-decoration: none;
+}
+

@@ -1,0 +1,197 @@
+.open-message
+{
+  color:#ffff;
+  font-size: 12px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10rem;
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(72,70,252,1) 29%, rgba(96,45,125,1) 71%);
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.open-message:hover
+{
+  background: linear-gradient(90deg, rgba(96,45,125,1) 45%, rgba(72,70,252,1) 82%);
+}
+
+.dots-open-message
+{
+  font-size: 12px;
+  margin-left: .5rem;
+  opacity: .75;
+  margin-top: .3rem;
+}
+
+
+.messages-inbox
+{
+   padding-top: 50px;
+   padding-bottom: 100px;
+}
+
+.menu
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #091353;
+  margin: 0px 50px;
+}
+
+.menu .messages-inbox-unread, .messages-inbox-all
+{
+  color: #ffff;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+}
+
+.messagesinboxunread
+{
+  color: #ffff;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+  padding: 5px 10px;
+}
+
+
+.messagesinboxunread:hover, .messages-inbox-all:hover
+{
+  background-color: #064663;
+}
+
+.table-inbox {
+  margin-bottom: 0;
+  padding: 0px 50px;
+}
+.table-inbox tr td {
+  padding: 12px !important;
+}
+.table-inbox tr td:hover {
+  cursor: pointer;
+}
+.table-inbox tr td .fa-star.inbox-started, .table-inbox tr td .fa-star:hover {
+  color: #f78a09;
+}
+.table-inbox tr td .fa-star {
+  color: #d5d5d5;
+}
+.table-inbox tr.unread td {
+  background: none repeat scroll 0 0 #f7f7f7;
+  font-weight: 600;
+}
+
+.open-message-info
+{
+  background-color: #a1a1a1;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin: auto;
+}
+
+.message-card
+{
+  margin-bottom: 20px;
+  width: 70%;
+}
+
+.respond-to-message
+{
+  border: 0.5px #232323;
+  padding-bottom: 50px;
+  width: 70%;
+  border-radius: 12px;
+  background-color: #ffff;
+}
+
+.respond-to-message-banner
+{
+  position: relative;
+  height: 30px;
+  background-color: #232323;
+  display: flex;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 15px;
+  padding-left: 15px;
+  padding-top: 5px;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.send-message-response
+{
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.send-message-response textarea
+{
+  width: 70%;
+}
+
+.send-message-response input, .send-message-response textarea
+{
+  margin-top: 15px;
+  display: block;
+  background-color: transparent;
+  color: #000;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 2px solid rgb(87, 10, 138);
+  width: 70%;
+  padding-bottom: 15px;
+  outline: none;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+
+.send-message-response input:focus
+{
+  transform: scaleX(1);
+}
+
+.submit-response-msg
+{
+  width: 25%; 
+  margin-top: 10px;
+  font-weight: 13px;
+  font-weight: 400;
+  color:#ffff;
+  padding-left: 5px;
+  padding: .2rem 4rem;
+  border: none;
+  border-radius: 10rem;
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(72,70,252,1) 29%, rgba(96,45,125,1) 71%);
+  text-decoration: none;
+}
+
+.answered-message
+{
+  background-color: green;
+  width: 70%;
+  padding: 5px 10px;
+  color: #ffff;
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+}
+
+
+

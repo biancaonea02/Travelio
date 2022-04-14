@@ -1,0 +1,31 @@
+.favourite-hotels-of-user
+{
+    background-color: #AAA492;
+}
+
+.favourite-hotels-heading
+{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+}
+
+.favourite-hotels-heading h2
+{
+    font-weight: 400;
+}
+
+.favourite-hotels-grid
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2.5rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.favourite-hotel-name
+{
+    align-items: center;
+}

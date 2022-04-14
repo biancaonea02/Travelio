@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
+
+.create-account-section
+{
+    padding: 5rem 0;
+    background: url('../travel.jpg');
+    background-size: cover;
+    font-size: 1rem;
+    font-family: 'Courgette';
+}
+
+.create-account-content
+{
+    background:rgba(255,255,255, 0.5);
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    padding: 5rem 1rem;
+    position: relative;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.btn-home-signup
+{
+    color:#ffff;
+    font-size: .7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .2rem 3.5rem;
+    border: none;
+    border-radius: 10rem;
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(72,70,252,1) 29%, rgba(96,45,125,1) 71%);
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+.btn-home-signup:hover
+{
+    background: linear-gradient(90deg, rgba(96,45,125,1) 45%, rgba(72,70,252,1) 82%);
+}
+
+

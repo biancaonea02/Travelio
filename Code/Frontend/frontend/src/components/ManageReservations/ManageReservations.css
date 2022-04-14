@@ -1,0 +1,63 @@
+.user-reservations
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2.5rem;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+}
+
+.all-reservations-of-user
+{
+  background-color: #BAABDA;
+}
+
+.reservations-heading
+{
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+
+.user-reservation-details
+{
+  padding-bottom: 5px;
+}
+
+.user-reservation-hotel-name
+{
+  padding-bottom: 10px;
+  color: #753188;
+  font-weight: bolder;
+}
+
+.user-reservation-message
+{
+  padding-top: 20px;
+  color: green;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.btn-delete-reservation
+{
+  font-size: 15px;
+  font-weight: 500;
+  padding: .2rem 3.5rem;
+  border: none;
+  border-radius: 10rem;
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(72,70,252,1) 29%, rgba(96,45,125,1) 71%);
+  text-decoration: none;
+  color:#ffff;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
+.btn-delete-reservation:hover
+{
+  background: linear-gradient(90deg, rgba(96,45,125,1) 45%, rgba(72,70,252,1) 82%);
+}

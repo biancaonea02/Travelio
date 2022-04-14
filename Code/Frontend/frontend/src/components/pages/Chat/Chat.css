@@ -1,0 +1,46 @@
+.chatbox
+{
+    border: 1px solid black;
+    min-height: 550px;
+    margin: 20px;
+    padding: 10px;
+    min-width: 117px;
+    position:relative;
+    overflow: auto;
+}
+
+.chatbox-banner
+{
+    height: 70px;
+    background-color: burlywood;
+    align-self: center;
+    align-items: center;
+}
+
+.chatbox-banner h3
+{
+    padding-top: 20px;
+    padding-left: 600px;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.your-message
+{ 
+    width: 1400px;
+}
+
+.send-message-container
+{
+    position:absolute;                 
+    bottom:0;                         
+    left:0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.send-chat-message
+{
+    width: 100px;
+}

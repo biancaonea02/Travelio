@@ -1,0 +1,114 @@
+:root {
+    --dark-color: #2d2c2c;
+    --purple-solid: #350a4f;
+    --purple-transparent: rgba(53, 10, 79, .7);
+    --purple-transparent-alt: rgba(53, 10, 79, .5);
+    --purple-light: #8f50fb;
+    --yellow-solid: #fa9e2c;
+    --gradient-color: linear-gradient(to right, var(--yellow-solid), var(--purple-light));
+    --gradient-color-alt: linear-gradient(to right, var(--purple-light), var(--yellow-solid));
+  }
+   
+   
+   .log-in
+   {
+      background: url('../../components/pages/HomePage/valencia.jpg') no-repeat top center / cover;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      text-align: center;
+      position: relative;
+      z-index: 0;
+      min-height: 641px;
+   }
+
+   #btnSubmit
+   {
+     border-radius: 12px;
+   }
+   
+   .form-container {
+      width: 650px;
+      background: linear-gradient(to right, rgba(250, 158, 44, .8), rgba(143, 80, 251, .8));
+      margin: auto;
+      margin-top: 75px;
+      box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+      padding: 10px;
+      border-radius: 12px;
+      margin-bottom: 30px;
+    }
+  
+    .register-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      padding: 10px;
+    }
+    
+    .success-message {
+      font-family: "Roboto", sans-serif;
+      background-color: #290149;
+      padding: 15px;
+      color: white;
+    }
+    
+    .form-field {
+      margin: 10px 0 10px 0;
+      padding: 15px;
+      font-size: 16px;
+      border: 0;
+      font-family: "Roboto", sans-serif;
+      border: 2px solid #7027A0;
+    }
+  
+    input
+    {
+      color: #7027A0;
+      font-weight: bold;
+    }
+  
+    .greeting-log-in
+    {
+      font-family: 'Poppins', sans-serif;
+      font-size: 36px;
+      color: #150050;
+    }
+  
+    .paragraph-greeting-log-in
+    {
+      color: #150050;
+      font-weight: bold;
+      margin-top: 5px;
+      margin-bottom: 10px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 20px;
+    }
+    
+  .error {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      color: red;
+      margin-bottom: 15px;
+    }
+  
+    
+    label
+    {
+      display: block;
+    }
+    
+    button {
+      background: #3F0071;
+      color: white;
+      cursor: pointer;
+    }
+  
+    button:hover {
+      background: #610094;
+    }
+  
+    
+    button:disabled {
+      cursor: default;
+    }
+  

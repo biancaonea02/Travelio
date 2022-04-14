@@ -1,0 +1,37 @@
+.cards
+{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.search-by-name, .results-header
+{
+    margin: 0 auto;
+}
+
+.search-name-box
+{
+    width: 800px;
+    height: 30px;
+    margin-top: 10px;
+    margin-top: 20px;
+}
+
+.search-by-name-header
+{
+    font-weight: 400;
+}
+
+.all-hotels
+{
+    background: #a1a1a1;
+    padding-top: 20px;
+}
+
+.results-header
+{
+    font-size: 30px;
+    color: #3F0071;
+    font-weight: 500;
+}

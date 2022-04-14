@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap');
+/*Custom properties*/
+:root {
+    --dark-color: #2d2c2c;
+    --purple-solid: #350a4f;
+    --purple-transparent: rgba(53, 10, 79, .7);
+    --purple-transparent-alt: rgba(53, 10, 79, .5);
+    --purple-light: #8f50fb;
+    --yellow-solid: #fa9e2c;
+    --gradient-color: linear-gradient(to right, var(--yellow-solid), var(--purple-light));
+    --gradient-color-alt: linear-gradient(to right, var(--purple-light), var(--yellow-solid));
+}
+
+
+.hotels
+{
+    padding: 5rem 0;
+    overflow-x: hidden;
+}
+
+.section-head-hotels
+{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+
+.heading-hotels
+{
+    display: block;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.sub-heading-hotels
+{
+    font-size: 1.7rem;
+    font-family: 'Courgette', cursive;
+    font-weight: 300;
+    color: #a5a5a5;
+}
+
+.grid-hotels
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    grid-gap: 2.5rem;
+}
+
+.grid-item
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.featured-hotels
+{
+    height: 17rem;
+    color:#ffff;
+    padding: 1rem;
+    position: relative;
+    z-index: 0;
+    margin: 20px;
+}
+
+.featured-hotels::before
+{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--purple-transparent-alt);
+    z-index: -1;
+}
+
+.hotel-image
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+}
+
+.hotel-name
+{
+    font-size: 1.5rem;
+}
+
+.hotel-price
+{
+    font-size: 1.3rem;
+}
+
+.hotel-rating
+{
+    margin: 1rem 0 2.5rem;
+}
+
+.rating
+{
+    color: var(--yellow-solid);
+}
+
+.dots-explore-hotels
+{
+    font-size: 1.5rem;
+    margin-left: .5rem;
+    opacity: .75;
+    margin-top: .5rem;
+}
+
+.btn-explore-hotels
+{
+    color:#ffff;
+    font-size: .7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .2rem 3.5rem;
+    border: none;
+    border-radius: 10rem;
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(72,70,252,1) 29%, rgba(96,45,125,1) 71%);
+    text-decoration: none;
+}
+
+.btn-explore-hotels:hover
+{
+    background: linear-gradient(90deg, rgba(96,45,125,1) 45%, rgba(72,70,252,1) 82%);
+}
+
+.pin
+{
+    margin-right: 10px;
+}
+
+
+@media screen and (min-width:1000px) {
+    .hotels
+    {
+        padding: 10rem 0;
+    }
+}
+

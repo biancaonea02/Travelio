@@ -1,0 +1,114 @@
+:root {
+  --dark-color: #2d2c2c;
+  --purple-solid: #350a4f;
+  --purple-transparent: rgba(53, 10, 79, .7);
+  --purple-transparent-alt: rgba(53, 10, 79, .5);
+  --purple-light: #8f50fb;
+  --yellow-solid: #fa9e2c;
+  --gradient-color: linear-gradient(to right, var(--yellow-solid), var(--purple-light));
+  --gradient-color-alt: linear-gradient(to right, var(--purple-light), var(--yellow-solid));
+}
+
+.btn--booking-search
+{
+  color:#ffff;
+  font-size: .7rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: .2rem 2.5rem;
+  border: none;
+  border-radius: 10rem;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 1.7rem;
+  cursor: pointer;
+  background-color: var(--purple-solid);
+}
+
+.btn--booking-search:hover
+{
+    background-color: #56247f;
+}
+
+.btn--sign-up {
+  font-size: .7rem;
+  background-color: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.btn--sign-up:hover {
+  background-color: #512B58;
+  color: #fff;
+}
+
+.btn--mobile {
+  text-align: center;
+  border-radius: 4px;
+  width: 80%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: #fff;
+  padding: 14px 20px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-out;
+}
+
+.btn--wide {
+  padding: 12px 64px;
+  font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--medium:hover,
+.btn--mobile:hover {
+  transition: all 0.3s ease-out;
+  background: #fff;
+  color: #242424;
+}
+
+.btn--wide:hover {
+  color: #fff;
+  background-color: #f00946;
+  transition: all 0.2s ease-out;
+}
+
+.btn-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
+}
+
+.btn--explore-book-reedem {
+  padding: .2rem 3.5rem;
+  border-radius: 10rem;
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  border: none;
+  background-image: var(--gradient-color);
+  font-weight: bold;
+}
+
+.btn--explore-book-reedem:hover
+{
+    background-image: var(--gradient-color-alt);
+    color: #fff;
+}
+
+@media screen and (min-width:1000px) {
+  .hotels
+  {
+      padding: 10rem 0;
+  }
+}

@@ -1,0 +1,139 @@
+.booking
+{
+    padding: 2rem 0;
+    background-image: var(--gradient-color);
+    overflow-x: hidden;
+}
+
+
+.user-details
+{
+    display: flex;
+    margin-left: 80px;
+}
+
+.input-label
+{
+    display: block;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color:#ffff;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+
+.input-booking, .option-booking
+{
+    height: 40px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 0px 30px;
+    outline: none;
+    margin-right: 50px;
+    color: #56247f;
+    font-weight: bold;
+}
+
+::placeholder
+{
+    color: inherit;
+}
+
+.container-booking
+{
+    width: 100%;
+    max-width: 100rem;
+    padding: 0 1.5rem;
+    margin: 0 auto;
+}
+
+.btn-search-booking
+{
+    color:#ffff;
+    font-size: .9rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: .4rem 2rem;
+    border: none;
+    border-radius: 10rem;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 3rem;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: var(--purple-solid);
+    resize: none;
+    height: fit-content;
+}
+
+.btn-search-booking:hover
+{
+    background-color: #56247f;
+}
+
+.error {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: red;
+    margin-bottom: 15px;
+  }
+
+  .error-dates
+  {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: red;
+    margin-bottom: 25px;
+    margin-right: 200px;
+  }
+
+  .search-icon
+  {
+      margin-top: 5px;
+      margin-left: 30px;
+  }
+
+@media screen and (max-width: 1350px) 
+{
+    .booking .form-booking
+    {
+        display: flex;
+        justify-content: space-between;
+ 
+    }
+ 
+    .booking .form-booking .input-group-booking
+    {
+        margin-bottom: 0;
+    }
+ 
+    .booking .form-booking .input-group-booking:first-child
+    {
+        flex: 0 0 20%;
+    }
+ 
+    .input-booking, .option-booking
+    {
+        display: table-column;
+        width: 100%;
+        margin-bottom: 50px;
+        margin-top: 20px;
+    }
+
+
+	.user-details
+	{
+		flex-direction: column;
+		margin-left: 40px;
+		margin-right: 40px;
+	}
+
+    .btn-search-booking
+    {
+        width: fit-content;
+        margin-left: 0;
+    }
+	
+}

@@ -1,0 +1,181 @@
+.hotel-activity
+{
+    padding: 100px 100px 281px 100px;
+    background: #f1f5f9;
+}
+
+.hotel-application-cards
+{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin: 0 auto;
+}
+
+.redirect-application-form
+{
+    padding-top: 50px;
+}
+
+
+.applicant-names
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.add-new-facility, .add-new-facility
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-add-hotel
+{
+    padding: 100px 100px 50px 100px;
+    background: #f1f5f9;
+}
+
+.hotel-application-form
+{
+    background-color: #EDEDED;
+    padding: 30px;
+}
+
+.application-banner
+{
+    position: relative;
+    height: 210px;
+    background-color: #160040;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffff;
+    font-weight: 300;
+}
+
+.applicant-details
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #0F044C;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.application-detail, .applicant-names, .application-detail-checkbox
+{
+    padding-top: 15px;
+}
+
+.hotel-application-details
+{
+    padding-top: 30px;
+    color: #0F044C;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.applicant-names .application-item:last-child
+{
+    margin-left: 20px;
+}
+
+.application-item
+{
+    width: calc(100% - 10px);
+    padding: 5px;
+}
+
+.application-item::placeholder {
+    color: #000;
+    font-weight: 200;
+    }
+
+
+.names-group
+{
+    padding-bottom: 10px;
+    font-size: 17px;
+    color: #171010;
+    font-weight: 500;
+}
+
+.add-facility
+{
+    margin-left: 10px;
+}
+
+.add-new-facility input
+{
+    width: 70%;
+}
+
+.add-application-success-message
+{
+    font-family: "Roboto", sans-serif;
+    background-color: #290149;
+    padding: 15px;
+    color: white;
+}
+
+
+.application-detail-checkbox
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.application-checkbox
+{
+    margin-top: 6px;
+    margin-right: 20px;
+}
+
+.send-hotel-application, .hotel-application-complete-form
+{
+    margin-top: 30px;
+    color:#ffff;
+    font-size: 17px;
+    font-weight: 400;
+    padding: .2rem 3.5rem;
+    border: none;
+    border-radius: 10rem;
+    display: inline-flex;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(72,70,252,1) 29%, rgba(96,45,125,1) 71%);
+    text-decoration: none;
+}
+
+.add-new-facility-btn
+{
+    margin-left: 40px;
+    border-radius: 12px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    align-items: center;
+}
+
+
+.displayed-hotels-heading
+{
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.displayed-hotels
+{
+    padding-top: 100px;
+}
+
+.displayed-hotels-cards
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 2.5rem;
+}
